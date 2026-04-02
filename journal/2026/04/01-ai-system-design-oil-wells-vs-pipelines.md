@@ -3,6 +3,8 @@
 date: 2026-04-01
 tags: #LearningNotes #MentalModels #StrategyThinking
 
+https://a16z.com/oil-wells-vs-pipelines-two-strategies-for-building-ai-companies/
+
 a16z の “Oil Wells vs. Pipelines: Two Strategies for Building AI Companies” を読んで印象に残ったのは、AI企業の戦い方を、単なる「モデルが強いかどうか」ではなく、事業構造の違いとして整理していた点です。AIの話になると、ついモデル性能やデモの派手さに目が向きがちですが、実際に会社を作るとなると、どこで価値を握るのか、何を置き換えるのか、顧客の業務にどう入り込むのかが本質になります。
 
 記事では、AI企業の戦略を「油井戸」と「パイプライン」という2つの比喩で説明していました。この整理がかなりわかりやすいです。
