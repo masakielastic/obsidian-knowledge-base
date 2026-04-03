@@ -1,7 +1,18 @@
-# Python の asyncioはどう進化したのか――ループ中心から構造化並行性へ
-
+---
+title: "Python の asyncioはどう進化したのか――ループ中心から構造化並行性へ"
 date: 2026-03-31
-tags: #python #asyncio #structuredConcurrency #concurrency #eventLoop #asyncProgramming #softwareDesign #backendDevelopment
+tags:
+  - python
+  - asyncio
+  - structuredConcurrency
+  - concurrency
+  - eventLoop
+  - asyncProgramming
+  - softwareDesign
+  - backendDevelopment
+---
+
+# Python の asyncioはどう進化したのか――ループ中心から構造化並行性へ
 
 Python の `asyncio` を追っていて面白いのは、API が増えたこと以上に、**並行処理をどう頭の中で捉えるか**が変わってきたことだ。整理すると、`asyncio` の歴史は **ループ中心 → コルーチン中心 → スコープ中心** への移行として見ると理解しやすい。
 
