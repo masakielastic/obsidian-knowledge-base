@@ -1,16 +1,20 @@
-# QUIC ライブラリの選び方メモ：OpenSSL 単独と ngtcp2 をどう使い分けるか
-
+---
+title: "QUIC ライブラリの選び方メモ：OpenSSL 単独と ngtcp2 をどう使い分けるか"
 date: 2026-03-31
-tags: #QUIC
-#HTTP3
-#OpenSSL
-#ngtcp2
-#Networking
-#Performance
-#TLS
-#AsyncIO
-#SystemDesign
-#LearningNotes
+tags:
+  - QUIC
+  - HTTP3
+  - OpenSSL
+  - ngtcp2
+  - Networking
+  - Performance
+  - TLS
+  - AsyncIO
+  - SystemDesign
+  - LearningNotes
+---
+
+# QUIC ライブラリの選び方メモ：OpenSSL 単独と ngtcp2 をどう使い分けるか
 
 QUIC を学ぶとき、ライブラリ選びは「何を理解したいか」でかなり変わる。整理して腑に落ちたのは、OpenSSL 単独と ngtcp2 は、同じ QUIC 対応でも役割がかなり違うということだ。Debian のパッケージ事情を見ると、その違いがかなりはっきり見える。Debian 12 では ngtcp2 系は GnuTLS バックエンド中心だが、Debian 13 では ngtcp2 の OpenSSL バックエンドも加わり、比較しながら学びやすくなっている。
 
