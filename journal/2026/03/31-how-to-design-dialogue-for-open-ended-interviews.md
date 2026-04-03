@@ -1,16 +1,20 @@
-# 対談のやり方メモ — 長く話すのではなく、問いが生まれる形に編集する
-
+---
+title: "対談のやり方メモ — 長く話すのではなく、問いが生まれる形に編集する"
 date: 2026-03-31
-tags: #dialogue-design
-#interview-strategy
-#conversation-design
-#communication
-#problem-structuring
-#thinking
-#knowledge-work
-#consulting
-#management
-#learning-note
+tags:
+  - dialogue-design
+  - interview-strategy
+  - conversation-design
+  - communication
+  - problem-structuring
+  - thinking
+  - knowledge-work
+  - consulting
+  - management
+  - learning-note
+---
+
+# 対談のやり方メモ — 長く話すのではなく、問いが生まれる形に編集する
 
 対談のやり方を考えるとき、まず押さえたいのは、自由に話せる場ほど、実はかなり設計が要るということだ。自由度の高い対話では、事業課題、組織課題、役割設計、優先順位、リスク判断のように、一言で済まない話題を扱いがちになる。だから、話が長くなること自体は、ある程度は構造的に避けにくい。とくに経営者や幹部との対談、あるいは高難度商談に近い対話では、30分程度では入口確認にしかならない場面も多い。
 
