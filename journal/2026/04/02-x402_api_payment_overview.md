@@ -1,4 +1,15 @@
-# 【調査メモ】HTTP 402でAPI課金を埋め込む決済プロトコルは何を変えるのか
+---
+title: "HTTP 402でAPI課金を埋め込む決済プロトコルは何を変えるのか"
+date: 2026-04-02
+tags:
+  - payment
+  - api
+  - x402
+  - ai-agent
+  - blockchain
+---
+
+# HTTP 402でAPI課金を埋め込む決済プロトコルは何を変えるのか
 
 date: 2026-04-02
 tags: #payment #api #x402 #ai-agent #blockchain
