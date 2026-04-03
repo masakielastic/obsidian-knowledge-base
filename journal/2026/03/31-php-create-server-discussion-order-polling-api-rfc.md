@@ -1,18 +1,22 @@
+---
+title: "PHP で `createServer()` を議論するなら、どんな順番がよいのか"
+date: 2026-03-31
+tags:
+  - PHP
+  - PHPInternals
+  - PHPRFC
+  - PollingAPI
+  - AsyncProgramming
+  - EventLoop
+  - NetworkProgramming
+  - HTTPServer
+  - ServerDesign
+  - SoftwareArchitecture
+  - RuntimeDesign
+---
+
 # PHP で `createServer()` を議論するなら、どんな順番がよいのか
 — Polling API RFC を起点に考える
-
-date: 2026-03-31
-tags: #PHP
-#PHPInternals
-#PHPRFC
-#PollingAPI
-#AsyncProgramming
-#EventLoop
-#NetworkProgramming
-#HTTPServer
-#ServerDesign
-#SoftwareArchitecture
-#RuntimeDesign
 
 PHP で Node.js の `createServer()` のような API を議論するとき、最初から高水準の入口関数を設計しようとすると論点が散らばりやすい。調べてみると、先に見るべきなのは HTTP サーバー API そのものではなく、**Polling API RFC が何を提供しようとしているか**でした。
 
