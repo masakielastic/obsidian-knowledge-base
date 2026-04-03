@@ -1,7 +1,15 @@
-# 対話形式の記事を安定させるには――Planner / Generator / Evaluator で考える設計の基本
-
+---
+title: "対話形式の記事を安定させるには――Planner / Generator / Evaluator で考える設計の基本"
 date: 2026-04-02
-tags: #dialogue #planner-generator-evaluator #thinking-framework #information-design #mental-model
+tags:
+  - dialogue
+  - planner-generator-evaluator
+  - thinking-framework
+  - information-design
+  - mental-model
+---
+
+# 対話形式の記事を安定させるには――Planner / Generator / Evaluator で考える設計の基本
 
 **企画**「対話形式の記事って、読みやすそうに見えて意外と難しいですよね。会話にしただけで説明が整理されるわけではなくて、放っておくと雑談っぽくなったり、説明役の独演会になったりします。」
 
