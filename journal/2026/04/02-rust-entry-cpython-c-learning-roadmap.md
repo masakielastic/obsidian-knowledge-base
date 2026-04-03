@@ -1,7 +1,16 @@
-# Rust を入口に CPython を目指すなら、C 言語はどう学ぶべきか — 段階設計とロードマップ設計で考える学習ルート
+---
+title: "Rust を入口に CPython を目指すなら、C 言語はどう学ぶべきか — 段階設計とロードマップ設計で考える学習ルート"
+date: 2026-04-02
+tags:
+  - CPython
+  - Rust
+  - CLanguage
+  - PythonInternals
+  - LearningRoadmap
+  - OSSDevelopment
+---
 
-date:2026-04-02
-tags: #CPython #Rust #CLanguage #PythonInternals #LearningRoadmap #OSSDevelopment
+# Rust を入口に CPython を目指すなら、C 言語はどう学ぶべきか — 段階設計とロードマップ設計で考える学習ルート
 
 Pre-PEP: Rust for CPython の議論を見ていると、「これからは C より Rust を学べばよいのか」と受け取りたくなります。ですが、少なくとも現時点の論点はそこまで単純ではありません。いま議論されているのは、CPython 全体を Rust で置き換える話ではなく、optional extension modules という限定範囲で Rust を認めるか、その実験をどう評価するか、そして将来どこまで広げうるかです。required modules や interpreter core への導入は今回の提案には含まれていません。
 
