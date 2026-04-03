@@ -1,11 +1,15 @@
-# AI活用の差はツール性能より開発基盤で決まる
-
+---
+title: "AI活用の差はツール性能より開発基盤で決まる"
 date: 2026-04-02
-tags: #ai
-#ai-coding-agent
-#dev-infrastructure
-#software-engineering
-#learning-note
+tags:
+  - ai
+  - ai-coding-agent
+  - dev-infrastructure
+  - software-engineering
+  - learning-note
+---
+
+# AI活用の差はツール性能より開発基盤で決まる
 
 https://note.com/suthio/n/n4fdb9de8480f
 
