@@ -1,16 +1,20 @@
-# PHP のビルトインサーバー改善構想 — 全面改修ではなく、実行可能な分割線を先につくる
-
+---
+title: "PHP のビルトインサーバー改善構想 — 全面改修ではなく、実行可能な分割線を先につくる"
 date: 2026-03-31
-tags: #php
-#phpinternals
-#webserver
-#refactoring
-#architecture
-#http
-#networking
-#async
-#eventloop
-#tls
+tags:
+  - php
+  - phpinternals
+  - webserver
+  - refactoring
+  - architecture
+  - http
+  - networking
+  - async
+  - eventloop
+  - tls
+---
+
+# PHP のビルトインサーバー改善構想 — 全面改修ではなく、実行可能な分割線を先につくる
 
 PHP のビルトインサーバー改善計画を短く整理しておく。今回の構想は `php_cli_server.c` を一気に作り直す話ではない。主眼は、`http_parser` 依存の緩和、TLS 対応に向けた Stream API 化の準備、そして Polling API を見据えた event loop/backend 分離に耐えられる構造へ、段階的に変えていくことにある。
 
