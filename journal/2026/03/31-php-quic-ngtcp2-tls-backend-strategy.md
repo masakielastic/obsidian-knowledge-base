@@ -1,7 +1,21 @@
-# PHP の準公式 QUIC 拡張は ngtcp2 + OpenSSL 本命、GnuTLS 補完で考える
+---
+title: "PHP の準公式 QUIC 拡張は ngtcp2 + OpenSSL 本命、GnuTLS 補完で考える"
+date: 2026-03-31
+tags:
+  - php
+  - quic
+  - http3
+  - ngtcp2
+  - openssl
+  - gnutls
+  - tls
+  - networking
+  - phpinternals
+  - oss
+  - softwarearchitecture
+---
 
-date:2026-03-31
-tags: #php #quic #http3 #ngtcp2 #openssl #gnutls #tls #networking #phpinternals #oss #softwarearchitecture
+# PHP の準公式 QUIC 拡張は ngtcp2 + OpenSSL 本命、GnuTLS 補完で考える
 
 結論から言うと、PHP の準公式 QUIC 拡張モジュールを今後目指すなら、ngtcp2 を土台にしつつ、TLS backend は **OpenSSL 3.5 以上を本命、GnuTLS を fallback** として考えるのが現実的だと整理している。理由は、macOS や Homebrew では OpenSSL が扱いやすい一方、Linux の LTS 系ではまだ OpenSSL 3.5 が十分に普及しておらず、GnuTLS を外すと対応範囲が狭くなるからだ。
 
