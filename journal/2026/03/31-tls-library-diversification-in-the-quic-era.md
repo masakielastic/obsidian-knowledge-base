@@ -1,18 +1,22 @@
-# TLS ライブラリはなぜ乱立したのか — QUIC 時代に変わった責務の置き場
-
+---
+title: "TLS ライブラリはなぜ乱立したのか — QUIC 時代に変わった責務の置き場"
 date: 2026-03-31
-tags: #TLS
-#QUIC
-#HTTP3
-#Networking
-#Security
-#OpenSSL
-#BoringSSL
-#rustls
-#ngtcp2
-#SystemDesign
-#ProtocolDesign
-#SoftwareArchitecture
+tags:
+  - TLS
+  - QUIC
+  - HTTP3
+  - Networking
+  - Security
+  - OpenSSL
+  - BoringSSL
+  - rustls
+  - ngtcp2
+  - SystemDesign
+  - ProtocolDesign
+  - SoftwareArchitecture
+---
+
+# TLS ライブラリはなぜ乱立したのか — QUIC 時代に変わった責務の置き場
 
 かつて TLS ライブラリは、かなり長い間「OpenSSL を使っておけばだいたい済む」という世界だった。Apache、Nginx、curl、多くの言語ランタイムが OpenSSL を前提にしていて、TLS はアプリの差別化要素というより、OS やミドルウェアに近い基盤部品だった。ところが TLS 1.3 と QUIC が、この前提を大きく崩した。
 
