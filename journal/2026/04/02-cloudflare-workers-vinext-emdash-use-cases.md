@@ -1,7 +1,16 @@
-# Cloudflare Workers ユーザー向けメモ：vinext と EmDash は何に使えるのか
-
+---
+title: "Cloudflare Workers ユーザー向けメモ：vinext と EmDash は何に使えるのか"
 date: 2026-04-02
-tags: #cloudflare-workers #vinext #emdash #serverless #framework-design #platform-strategy
+tags:
+  - cloudflare-workers
+  - vinext
+  - emdash
+  - serverless
+  - framework-design
+  - platform-strategy
+---
+
+# Cloudflare Workers ユーザー向けメモ：vinext と EmDash は何に使えるのか
 
 Cloudflare Workers ユーザー視点で vinext と EmDash を見ると、どちらも「Workers にデプロイできる新ツール」ではなく、**Workers を前提にしたアプリ設計の選択肢**として読むのがわかりやすい。vinext は Next.js の API surface を Vite 上で再実装した代替実装で、`vinext deploy` で Workers へそのまま載せられる。EmDash は Astro ベースの CMS で、WordPress 的なテーマ・プラグイン体験を、Dynamic Workers と bindings を使う安全な拡張モデルへ作り直している。両者に共通するのは、**既存の定番体験を残しつつ、下の実行モデルを Workers ネイティブに置き換える**ことだ。
 
