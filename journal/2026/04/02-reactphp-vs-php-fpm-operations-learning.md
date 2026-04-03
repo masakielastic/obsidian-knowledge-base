@@ -1,11 +1,15 @@
-# php-fpm との比較から ReactPHP の運用を学ぶ
+---
+title: "php-fpm との比較から ReactPHP の運用を学ぶ"
+date: 2026-04-02
+tags:
+  - php
+  - reactphp
+  - php-fpm
+  - operations
+  - learning-memo
+---
 
-date:2026-04-02
-tags: #php
-#reactphp
-#php-fpm
-#operations
-#learning-memo
+# php-fpm との比較から ReactPHP の運用を学ぶ
 
 ReactPHP を php-fpm と比較して学ぶとき、最初に押さえたいのは「同じ PHP でも、運用モデルがかなり違う」という点です。ReactPHP はイベントループを中心にした低レベルの非同期基盤で、HTTP サーバー、ソケット、子プロセスなどを部品として提供します。一方の php-fpm は FastCGI のためのプロセスマネージャで、子プロセス数や再起動回数などの運用パラメータをあらかじめ備えています。つまり、php-fpm は運用機能込みの土台であり、ReactPHP は非同期アプリを組み立てるための基盤です。
 
