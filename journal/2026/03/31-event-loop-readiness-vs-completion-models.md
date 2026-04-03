@@ -1,7 +1,20 @@
-# イベントループは何を回しているのか――イベントキュー、readiness、completion モデル
-
+---
+title: "イベントループは何を回しているのか――イベントキュー、readiness、completion モデル"
 date: 2026-03-31
-tags: #EventLoop #EventDriven #AsyncIO #Epoll #IoUring #Libuv #SystemsProgramming #Concurrency #NonBlockingIO #SoftwareArchitecture
+tags:
+  - EventLoop
+  - EventDriven
+  - AsyncIO
+  - Epoll
+  - IoUring
+  - Libuv
+  - SystemsProgramming
+  - Concurrency
+  - NonBlockingIO
+  - SoftwareArchitecture
+---
+
+# イベントループは何を回しているのか――イベントキュー、readiness、completion モデル
 
 イベントループを一言でいうと、「今やるべき仕事があるかを見て、あれば順に処理し、なければ待つ仕組み」だと整理できる。そこで回っている材料がイベントキューで、タイマー満了、ソケット読込可能、書込可能、処理完了通知などがキューに入り、ループはそれを取り出してコールバックや継続処理を実行する。
 
