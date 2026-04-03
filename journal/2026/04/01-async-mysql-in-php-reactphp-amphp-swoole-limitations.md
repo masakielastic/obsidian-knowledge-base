@@ -1,7 +1,24 @@
-# ReactPHP / AMPHP / Swoole で MySQL 非同期処理をどう見るか — 待ち時間を重ねられるが、SQL そのものが速くなるわけではない
-
+---
+title: "ReactPHP / AMPHP / Swoole で MySQL 非同期処理をどう見るか — 待ち時間を重ねられるが、SQL そのものが速くなるわけではない"
 date: 2026-04-01
-tags: #PHP #MySQL #AsyncIO #NonBlocking #EventLoop #Coroutine #ReactPHP #AMPHP #Swoole #WebPerformance #BackendEngineering #IOBound #ConnectionPooling #ProtocolDesign
+tags:
+  - PHP
+  - MySQL
+  - AsyncIO
+  - NonBlocking
+  - EventLoop
+  - Coroutine
+  - ReactPHP
+  - AMPHP
+  - Swoole
+  - WebPerformance
+  - BackendEngineering
+  - IOBound
+  - ConnectionPooling
+  - ProtocolDesign
+---
+
+# ReactPHP / AMPHP / Swoole で MySQL 非同期処理をどう見るか — 待ち時間を重ねられるが、SQL そのものが速くなるわけではない
 
 ReactPHP / AMPHP / Swoole での MySQL 非同期処理を考えるとき、いちばん大事なのは「DB を魔法のように高速化する技術」ではなく、「MySQL 待ちのあいだに別の仕事を進める技術」だと整理することだ。非同期化の対象は MySQL サーバーそのものではなく、PHP 側で MySQL ソケットを non-blocking に扱うことにある。書けるときに送信し、読めるときに受信し、その待ち時間をイベントループやコルーチンで他の処理に振り向ける。だから価値の本体は、個々の SQL の実行時間短縮ではなく、アプリ全体の I/O 待ちの重ね方にある。
 

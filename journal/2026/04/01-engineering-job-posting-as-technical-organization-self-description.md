@@ -1,18 +1,22 @@
-# エンジニア求人情報の書き方 — エンジニア求人情報の書き方について
-
+---
+title: "エンジニア求人情報の書き方 — エンジニア求人情報の書き方について"
 date: 2026-04-01
-tags: #EngineeringHiring
-#TechRecruiting
-#JobPosting
-#TechOrganization
-#SoftwareEngineering
-#TechLeadership
-#HiringStrategy
-#DeveloperExperience
-#EngineeringCulture
-#SystemDesign
-#CommunicationDesign
-#DDD
+tags:
+  - EngineeringHiring
+  - TechRecruiting
+  - JobPosting
+  - TechOrganization
+  - SoftwareEngineering
+  - TechLeadership
+  - HiringStrategy
+  - DeveloperExperience
+  - EngineeringCulture
+  - SystemDesign
+  - CommunicationDesign
+  - DDD
+---
+
+# エンジニア求人情報の書き方 — エンジニア求人情報の書き方について
 
 エンジニアの求人票を読むたびに、技術名だけが長く並んでいる欄に引っかかることがある。PHP、Go、TypeScript、AWS、Docker、Kubernetes と並んでいても、それだけでは会社の実態はほとんど見えない。情報量が多いようで、実は意味が薄い。応募者が知りたいのは、何を使っているかそのものではなく、何のために使っているか、どこで使っているか、どれくらい重要か、今後も使うのか、入社後にどのくらい関わるのかだと思う。そこが書かれていない求人票は、会社にとっても応募者にとってもミスマッチの原因になりやすい。
 

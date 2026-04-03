@@ -1,16 +1,20 @@
-# OSS コミュニティ支援を4分類で考える学習メモ — 低レイヤー・中レイヤー・高レイヤー・教育支援の見取り図
-
+---
+title: "OSS コミュニティ支援を4分類で考える学習メモ — 低レイヤー・中レイヤー・高レイヤー・教育支援の見取り図"
 date: 2026-04-01
-tags: #OpenSource
-#OSS
-#CommunityBuilding
-#DeveloperEcosystem
-#APIDesign
-#SoftwareArchitecture
-#TechnicalWriting
-#Documentation
-#DeveloperEducation
-#EcosystemDesign
+tags:
+  - OpenSource
+  - OSS
+  - CommunityBuilding
+  - DeveloperEcosystem
+  - APIDesign
+  - SoftwareArchitecture
+  - TechnicalWriting
+  - Documentation
+  - DeveloperEducation
+  - EcosystemDesign
+---
+
+# OSS コミュニティ支援を4分類で考える学習メモ — 低レイヤー・中レイヤー・高レイヤー・教育支援の見取り図
 
 オープンソースのコミュニティ支援というと、つい「コードを書く」「新機能を足す」といった話に寄りがちだが、実際にはそれだけでは全体像を捉えにくい。コミュニティがどこで詰まり、どこを支援すると波及効果が大きいのかを考えるには、支援の種類を分けて見る必要がある。そこで役に立つのが、**低レイヤー支援・中レイヤー支援・高レイヤー支援・教育支援** という4分類だと感じた。
 

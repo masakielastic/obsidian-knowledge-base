@@ -1,16 +1,20 @@
-# AI活用を「属人芸」から「再現可能な業務基盤」に変えるための評価リスト
-
+---
+title: "AI活用を「属人芸」から「再現可能な業務基盤」に変えるための評価リスト"
 date: 2026-04-01
-tags: #AI
-#AIEngineering
-#AIOperations
-#KnowledgeManagement
-#Reproducibility
-#SoftwareEngineering
-#WorkflowDesign
-#DevProcess
-#RAG
-#EngineeringManagement
+tags:
+  - AI
+  - AIEngineering
+  - AIOperations
+  - KnowledgeManagement
+  - Reproducibility
+  - SoftwareEngineering
+  - WorkflowDesign
+  - DevProcess
+  - RAG
+  - EngineeringManagement
+---
+
+# AI活用を「属人芸」から「再現可能な業務基盤」に変えるための評価リスト
 
 AI活用の議論では、つい「この人はAIを使いこなしている」「このモデルは優秀だ」という話になりがちだ。しかし、業務として考えるなら重要なのは、特定の個人や特定のモデルに依存せず、別の担当者や別の案件でも再現できるかどうかである。ここで必要になるのが、AI活用を評価するための軸の整理だ。
 

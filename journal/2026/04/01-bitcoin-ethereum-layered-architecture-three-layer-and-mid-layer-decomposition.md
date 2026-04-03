@@ -1,16 +1,20 @@
-# Bitcoin / Ethereum をレイヤーで見る学習メモ — 3層の地図と、中レイヤーを分解する意味
-
+---
+title: "Bitcoin / Ethereum をレイヤーで見る学習メモ — 3層の地図と、中レイヤーを分解する意味"
 date: 2026-04-01
-tags: #Bitcoin
-#Ethereum
-#BlockchainArchitecture
-#LayeredArchitecture
-#ProtocolDesign
-#DistributedSystems
-#APIDesign
-#DeveloperEcosystem
-#SystemDesign
-#SoftwareArchitecture
+tags:
+  - Bitcoin
+  - Ethereum
+  - BlockchainArchitecture
+  - LayeredArchitecture
+  - ProtocolDesign
+  - DistributedSystems
+  - APIDesign
+  - DeveloperEcosystem
+  - SystemDesign
+  - SoftwareArchitecture
+---
+
+# Bitcoin / Ethereum をレイヤーで見る学習メモ — 3層の地図と、中レイヤーを分解する意味
 
 暗号資産の技術を理解しようとすると、つい「Bitcoin」「Ethereum」「ノード」「ウォレット」「SDK」「RPC」と個別の名前で覚えがちです。けれども実務や設計の観点では、名前よりも**どの責務がどの層にあるか**で見たほうがわかりやすい。
 

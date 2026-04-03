@@ -1,16 +1,20 @@
-# 困りごとの言語化と、判断基準を見せる仕事
-
+---
+title: "困りごとの言語化と、判断基準を見せる仕事"
 date: 2026-04-01
-tags: #problem-framing
-#customer-understanding
-#decision-making
-#hypothesis-thinking
-#consulting-mindset
-#communication
-#sensemaking
-#critical-thinking
-#knowledge-work
-#reflection
+tags:
+  - problem-framing
+  - customer-understanding
+  - decision-making
+  - hypothesis-thinking
+  - consulting-mindset
+  - communication
+  - sensemaking
+  - critical-thinking
+  - knowledge-work
+  - reflection
+---
+
+# 困りごとの言語化と、判断基準を見せる仕事
 
 今日、X の投稿で印象に残ったのは、『目的ドリブンの思考法』の著者である望月安迪氏の話である。コンサルタントの戦略系案件では「提案書は最終報告のつもりで書くべし」という考え方があるという。受注前の営業資料として軽く作るのではなく、その時点で得られる情報を最大限に使い、あるべき姿、勝ち筋の選択肢、事業の方向性、規模感、必要な能力の仮説まで書き切る。これは仮説の精度を競うためだけではなく、相手に「この人たちとならやれそうだ」と感じてもらうためでもある。買われるのは資料の中身だけでなく、その背後にある人の判断の仕方なのだと思う。
 

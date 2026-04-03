@@ -1,16 +1,20 @@
-# Rasmus Lerdorf の「10リクエストごとに Apache を再起動すればいい」のジョークから学ぶ、現代サーバーアーキテクチャ 
-
+---
+title: "Rasmus Lerdorf の「10リクエストごとに Apache を再起動すればいい」のジョークから学ぶ、現代サーバーアーキテクチャ "
 date: 2026-04-01
-tags: #WebArchitecture
-#ServerDesign
-#ProcessModel
-#PHP
-#RasmusLerdorf
-#MemoryManagement
-#EventLoop
-#AsyncProgramming
-#SystemDesign
-#BackendEngineering
+tags:
+  - WebArchitecture
+  - ServerDesign
+  - ProcessModel
+  - PHP
+  - RasmusLerdorf
+  - MemoryManagement
+  - EventLoop
+  - AsyncProgramming
+  - SystemDesign
+  - BackendEngineering
+---
+
+# Rasmus Lerdorf の「10リクエストごとに Apache を再起動すればいい」のジョークから学ぶ、現代サーバーアーキテクチャ 
 
 Rasmus Lerdorf の「メモリリークしていても Apache を 10 リクエストごとに再起動すればいい」という話は、文字通りの運用手順ではなく、初期 Web 開発の現実主義を誇張したジョークだと理解している。要するに、「完璧に壊れないものを作る」だけでなく、「壊れても短命なプロセスとして交換できるように設計する」という発想である。
 

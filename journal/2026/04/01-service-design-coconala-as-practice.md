@@ -1,13 +1,17 @@
-# ココナラの出品を、サービス設計の練習問題として考えてみる
-
+---
+title: "ココナラの出品を、サービス設計の練習問題として考えてみる"
 date: 2026-04-01
-tags: #service-design
-#consultation-design
-#problem-framing
-#decision-making
-#client-work
-#systems-thinking
-#engineering-notes
+tags:
+  - service-design
+  - consultation-design
+  - problem-framing
+  - decision-making
+  - client-work
+  - systems-thinking
+  - engineering-notes
+---
+
+# ココナラの出品を、サービス設計の練習問題として考えてみる
 
 ココナラの出品内容を考えていて、これは単なる販売ページづくりではなく、**サービス設計の練習問題**としてかなりおもしろいのではないかと思った。  
 何ができるかを並べるだけなら簡単だが、実際にはそれでは足りない。問われるのは、依頼したい人がどこで詰まり、どの段階にいて、何を見えやすくすれば前に進めるのか、という設計のほうだからだ。

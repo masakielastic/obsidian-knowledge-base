@@ -1,20 +1,24 @@
-# 設計者の分類をどう考えるか — 美学・便利さ・共通基盤のあいだで見えてきた立ち位置
-
+---
+title: "設計者の分類をどう考えるか — 美学・便利さ・共通基盤のあいだで見えてきた立ち位置"
 date: 2026-04-01
-tags: #software-design
-#system-design
-#api-design
-#programming-languages
-#design-philosophy
-#primitives
-#abstraction
-#separation-of-concerns
-#boundary-design
-#architecture
-#developer-experience
-#usability
-#consensus-building
-#engineering-thinking
+tags:
+  - software-design
+  - system-design
+  - api-design
+  - programming-languages
+  - design-philosophy
+  - primitives
+  - abstraction
+  - separation-of-concerns
+  - boundary-design
+  - architecture
+  - developer-experience
+  - usability
+  - consensus-building
+  - engineering-thinking
+---
+
+# 設計者の分類をどう考えるか — 美学・便利さ・共通基盤のあいだで見えてきた立ち位置
 
 整理してみると、少なくとも三つの方向がある。ひとつ目は**美学中心の設計**。二つ目は**便利さ中心の設計**。すぐ使える、学びやすい、親切であることを重視する方向だ。Requests の “built for human beings” のような思想は、この系譜のわかりやすい例だと思う。三つ目は**共通基盤中心の設計**で、多くの人が合意できる最小限の土台を探す方向になる。
 

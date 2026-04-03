@@ -1,11 +1,15 @@
-# AI統合アプリの分類メモ — モデル単体ではなく、ハーネスと業務設計で見る
-
+---
+title: "AI統合アプリの分類メモ — モデル単体ではなく、ハーネスと業務設計で見る"
 date: 2026-04-01
-tags: #AIArchitecture
-#AgentSystems
-#SoftwareArchitecture
-#SystemDesign
-#AIApplications
+tags:
+  - AIArchitecture
+  - AgentSystems
+  - SoftwareArchitecture
+  - SystemDesign
+  - AIApplications
+---
+
+# AI統合アプリの分類メモ — モデル単体ではなく、ハーネスと業務設計で見る
 
 AI統合アプリを考えるとき、つい「どのモデルを使うか」に意識が向きがちだが、実際のアーキテクチャではそこだけ見ても足りない。福島良典氏の記事で強調されているのは、価値の中心はAIエージェント単体ではなく、それを包み込む**エージェントハーネス**にあるという点だ。長時間タスクでは、終了条件の誤認、品質の自己過信、少しずつ仕事がずれるドリフトが起きやすく、それを抑えるために進行管理、視覚的チェック、フックによる決定論的な通過点が必要になる。
 

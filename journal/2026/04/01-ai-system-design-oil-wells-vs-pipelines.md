@@ -1,7 +1,13 @@
-# AI企業は「油井戸」を掘るのか、「パイプライン」を引くのか — a16z記事から考える、AIスタートアップの勝ち筋の違い
-
+---
+title: "AI企業は「油井戸」を掘るのか、「パイプライン」を引くのか — a16z記事から考える、AIスタートアップの勝ち筋の違い"
 date: 2026-04-01
-tags: #LearningNotes #MentalModels #StrategyThinking
+tags:
+  - LearningNotes
+  - MentalModels
+  - StrategyThinking
+---
+
+# AI企業は「油井戸」を掘るのか、「パイプライン」を引くのか — a16z記事から考える、AIスタートアップの勝ち筋の違い
 
 https://a16z.com/oil-wells-vs-pipelines-two-strategies-for-building-ai-companies/
 

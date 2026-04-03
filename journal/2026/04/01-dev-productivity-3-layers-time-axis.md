@@ -1,14 +1,18 @@
-# 時間軸で見る開発生産性の3階層
-
+---
+title: "時間軸で見る開発生産性の3階層"
 date: 2026-04-01
-tags: #DeveloperProductivity
-#EngineeringManagement
-#LeadTime
-#CycleTime
-#BusinessCommunication
-#TimePerspective
-#DevProcess
-#Alignment
+tags:
+  - DeveloperProductivity
+  - EngineeringManagement
+  - LeadTime
+  - CycleTime
+  - BusinessCommunication
+  - TimePerspective
+  - DevProcess
+  - Alignment
+---
+
+# 時間軸で見る開発生産性の3階層
 
 https://qiita.com/hirokidaichi/items/53f0865398829bdebef1
 
