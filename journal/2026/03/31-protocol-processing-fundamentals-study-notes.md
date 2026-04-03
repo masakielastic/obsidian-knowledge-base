@@ -1,7 +1,23 @@
-# プロトコル処理は何を学べば理解できるのか——調査記録として整理してみた
-
+---
+title: "プロトコル処理は何を学べば理解できるのか——調査記録として整理してみた"
 date: 2026-03-31
-tags: #ProtocolProcessing #Networking #SystemsProgramming #StreamProcessing #StateMachine #BufferManagement #Framing #UTF8 #DataStructures #Algorithms #HTTP #QUIC #StudyNotes
+tags:
+  - ProtocolProcessing
+  - Networking
+  - SystemsProgramming
+  - StreamProcessing
+  - StateMachine
+  - BufferManagement
+  - Framing
+  - UTF8
+  - DataStructures
+  - Algorithms
+  - HTTP
+  - QUIC
+  - StudyNotes
+---
+
+# プロトコル処理は何を学べば理解できるのか——調査記録として整理してみた
 
 最近、プロトコル処理を学ぶうえで何が基礎になるのかを整理していた。結論から言うと、最初に必要なのは派手なアルゴリズムではなく、バイト列処理、線形走査、フレーミング、状態遷移、バッファ管理のような地味な基礎だと考えている。調査の中でも、重要なのは「どの単位で区切るのか」「長さをどう決めるのか」「途中で切れたらどうするのか」という視点だった。
 
