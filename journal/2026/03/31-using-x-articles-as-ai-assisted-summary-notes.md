@@ -1,14 +1,18 @@
-# note で考えて、X の記事で圧縮することにした話
-
+---
+title: "note で考えて、X の記事で圧縮することにした話"
 date: 2026-03-31
-tags: #AIWriting
-#NoteTaking
-#LearningNotes
-#KnowledgeManagement
-#Obsidian
-#PKM
-#XArticles
-#WritingWorkflow
+tags:
+  - AIWriting
+  - NoteTaking
+  - LearningNotes
+  - KnowledgeManagement
+  - Obsidian
+  - PKM
+  - XArticles
+  - WritingWorkflow
+---
+
+# note で考えて、X の記事で圧縮することにした話
 
 これまで調査記録や学習メモは主に note に書いてきました。  
 3人の対話形式にしているのは、読みやすさのためでもありますが、自分の理解不足や論点の抜けを見つけやすいからです。
