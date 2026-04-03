@@ -1,16 +1,20 @@
-# PHP ユーザー視点では Promise と Future は何が違うのか
-
+---
+title: "PHP ユーザー視点では Promise と Future は何が違うのか"
 date: 2026-03-31
-tags: #PHP
-#AsyncProgramming
-#Promise
-#Future
-#Fiber
-#API-Design
-#Concurrency
-#EventLoop
-#LibraryDesign
-#SoftwareArchitecture
+tags:
+  - PHP
+  - AsyncProgramming
+  - Promise
+  - Future
+  - Fiber
+  - API-Design
+  - Concurrency
+  - EventLoop
+  - LibraryDesign
+  - SoftwareArchitecture
+---
+
+# PHP ユーザー視点では Promise と Future は何が違うのか
 
 PHP の非同期を考えるとき、私はまず **Fiber と Promise / Future を同じ棚に置かない** ようにしています。添付メモでも、両者を競合ではなく別レイヤーとして整理し、さらに eager 実行、cancel、責務混在、PHP の実行モデルの違いを押さえる構成になっていました。
 
