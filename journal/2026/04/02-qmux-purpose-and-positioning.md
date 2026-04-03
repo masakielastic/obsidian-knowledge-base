@@ -1,7 +1,19 @@
-# QMuxは何のためにあるのか――QUICアプリをTCP/TLS側でも再利用しやすくする互換層
-
+---
+title: "QMuxは何のためにあるのか――QUICアプリをTCP/TLS側でも再利用しやすくする互換層"
 date: 2026-04-02
-tags: #qmux #quic #networking #protocol-design #http2 #http3 #webtransport #compatibility-layer #research-notes
+tags:
+  - qmux
+  - quic
+  - networking
+  - protocol-design
+  - http2
+  - http3
+  - webtransport
+  - compatibility-layer
+  - research-notes
+---
+
+# QMuxは何のためにあるのか――QUICアプリをTCP/TLS側でも再利用しやすくする互換層
 
 QMux の目的は、**QUIC 向けに書かれた上位実装を TCP/TLS 上でも動かしやすくし、HTTP/3 と HTTP/2 などの二重実装コストを減らすこと**にある。QUIC 自体を TCP に置き換えるのではなく、QUIC アプリケーションが依存する stream / datagram の操作体系を、順序付き・信頼できるバイトストリーム上に写像する互換層として設計されている。ドラフトの要約でも、QMux version 1 は TLS のような双方向ストリーム上で、QUIC v1 のアプリケーションが依存するのと同じ種類の stream / datagram 操作を提供すると説明されている。現時点では QUIC WG の Active Internet-Draft `draft-ietf-quic-qmux-01` で、最終更新日は 2026年4月1日だ。
 
