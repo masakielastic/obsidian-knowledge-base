@@ -1,7 +1,17 @@
-# 【調査メモ」Cloudflare Workers ユーザー視点で vinext は Next.js の代替実装として何を変えるのか
-
+---
+title: "Cloudflare Workers ユーザー視点で vinext は Next.js の代替実装として何を変えるのか"
 date: 2026-04-02
-tags: #cloudflare-workers #vinext #nextjs #vite #architecture #runtime-model #reimplementation
+tags:
+  - cloudflare-workers
+  - vinext
+  - nextjs
+  - vite
+  - architecture
+  - runtime-model
+  - reimplementation
+---
+
+# Cloudflare Workers ユーザー視点で vinext は Next.js の代替実装として何を変えるのか
 
 Cloudflare の vinext は、「Next.js を Cloudflare Workers へデプロイしやすくするアダプター」ではなく、**Next.js の API surface を Vite 上で再実装する**という発想のプロジェクトだ。Cloudflare の記事では、`app/`、`pages/`、`next.config.js` を大きく崩さず、`next` を `vinext` に置き換えるだけで使い始められる drop-in replacement として紹介されている。`vinext dev`、`vinext build`、`vinext deploy` という形で、開発・ビルド・Workers へのデプロイまでを一続きで扱えるのが特徴だ。
 Workers ユーザーにとって重要なのは、ここで解いている問題が単なる「デプロイ手順の面倒さ」ではないことだ。従来の Next.js は独自のビルド出力を持ち、Cloudflare・Netlify・AWS Lambda のような serverless 環境に載せるには、その出力を各環境向けに変形する必要がある。OpenNext はその課題に取り組んでいるが、Cloudflare はこの方式を、Next.js の出力を後追いで reverse-engineer する壊れやすい構造だと整理している。さらに `next dev` は Node.js 前提なので、Workers 固有の実行環境を開発段階からそのまま試しにくい。
