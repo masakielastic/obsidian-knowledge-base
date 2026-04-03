@@ -1,8 +1,26 @@
+---
+title: "HTTP サーバーは全部同じじゃないですか？にどう答えるか"
+date: 2026-03-31
+tags:
+  - HTTP
+  - WebServer
+  - PHP
+  - NodeJS
+  - Backend
+  - SystemDesign
+  - Architecture
+  - Async
+  - EventLoop
+  - TLS
+  - OpenSSL
+  - OSS
+  - SoftwareDesign
+  - EngineeringManagement
+  - RFC
+---
+
 # HTTP サーバーは全部同じじゃないですか？にどう答えるか
 — PHP と Node.js から考える、標準機能・政治コスト・自作できる基盤の意味
-
-date: 2026-03-31
-tags: #HTTP #WebServer #PHP #NodeJS #Backend #SystemDesign #Architecture #Async #EventLoop #TLS #OpenSSL #OSS #SoftwareDesign #EngineeringManagement #RFC
 
 「HTTP サーバーなんて、結局は全部同じでは？」  
 この疑問は自然です。どれもリクエストを受けてレスポンスを返すので、外から見ると似ています。
