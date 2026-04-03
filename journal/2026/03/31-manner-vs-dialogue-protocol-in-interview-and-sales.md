@@ -1,16 +1,20 @@
-# マナーと対話プロトコルの違い
-
+---
+title: "マナーと対話プロトコルの違い"
 date: 2026-03-31
-tags: #dialogue-design
-#communication-protocol
-#interview-strategy
-#sales-communication
-#negotiation
-#high-uncertainty
-#interaction-design
-#organizational-communication
-#decision-making
-#learning-notes
+tags:
+  - dialogue-design
+  - communication-protocol
+  - interview-strategy
+  - sales-communication
+  - negotiation
+  - high-uncertainty
+  - interaction-design
+  - organizational-communication
+  - decision-making
+  - learning-notes
+---
+
+# マナーと対話プロトコルの違い
 
 面接や営業の話題は、かなりの頻度で「どう見えるか」の話に寄っていく。感じよく話す、失礼のない受け答えをする、無難な言い回しを選ぶ。もちろんそれ自体は大事だが、そこで止まると対話の理解としては浅い。整理の出発点として重要なのは、マナーとプロトコルは別物だということだ。
 
