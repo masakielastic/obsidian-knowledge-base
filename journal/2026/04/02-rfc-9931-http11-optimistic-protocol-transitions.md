@@ -1,7 +1,22 @@
-# 【学習メモ】RFC 9931: HTTP/1.1 の楽観的プロトコル切替はなぜ危険なのか
-
+---
+title: "RFC 9931: HTTP/1.1 の楽観的プロトコル切替はなぜ危険なのか"
 date: 2026-04-02
-tags: #RFC9931 #HTTP11 #HTTP #ProtocolDesign #Security #RequestSmuggling #CONNECT #Upgrade #WebSocket #Networking #WebProtocols #ObsidianNotes
+tags:
+  - RFC9931
+  - HTTP11
+  - HTTP
+  - ProtocolDesign
+  - Security
+  - RequestSmuggling
+  - CONNECT
+  - Upgrade
+  - WebSocket
+  - Networking
+  - WebProtocols
+  - ObsidianNotes
+---
+
+# RFC 9931: HTTP/1.1 の楽観的プロトコル切替はなぜ危険なのか
 
 RFC 9931 を読んで整理したいポイントは、HTTP/1.1 では `Upgrade` や `CONNECT` の要求を送った直後に、切替先プロトコルのデータを先回りして送る実装が危険になりうる、ということだ。RFC 9931 は 2026年3月公開の Standards Track 文書で、RFC 9112 と RFC 9298 を更新している。主題は、切替成功の応答を受ける前に後続データを送る **optimistic protocol transition** の安全性だ。
 
