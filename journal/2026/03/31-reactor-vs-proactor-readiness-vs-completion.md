@@ -1,16 +1,20 @@
-# Reactor / Proactor は「通知の意味」で覚えると整理しやすい
-
+---
+title: "Reactor / Proactor は「通知の意味」で覚えると整理しやすい"
 date: 2026-03-31
-tags: #ReactorPattern
-#ProactorPattern
-#EventDriven
-#AsyncIO
-#Networking
-#ReadinessModel
-#CompletionModel
-#SystemDesign
-#Concurrency
-#IOModel
+tags:
+  - ReactorPattern
+  - ProactorPattern
+  - EventDriven
+  - AsyncIO
+  - Networking
+  - ReadinessModel
+  - CompletionModel
+  - SystemDesign
+  - Concurrency
+  - IOModel
+---
+
+# Reactor / Proactor は「通知の意味」で覚えると整理しやすい
 
 Reactor と Proactor を見分けるコツは、**通知が何を意味しているか**を見ることだと整理できた。記事では、この違いを readiness と completion の差として説明している。readiness は「今なら読める・書ける・受け取れる」、completion は「依頼した作業が終わった」という合図だ。
 
