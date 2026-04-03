@@ -1,7 +1,16 @@
-# Cloudflare Workers ユーザー視点の EmDash ―― WordPress 的 CMS を Workers ネイティブに再設計する試み
-
+---
+title: "Cloudflare Workers ユーザー視点の EmDash ―― WordPress 的 CMS を Workers ネイティブに再設計する試み"
 date: 2026-04-02
-tags: #cloudflare-workers #emdash #cms #serverless #capability-security #runtime-design
+tags:
+  - cloudflare-workers
+  - emdash
+  - cms
+  - serverless
+  - capability-security
+  - runtime-design
+---
+
+# Cloudflare Workers ユーザー視点の EmDash ―― WordPress 的 CMS を Workers ネイティブに再設計する試み
 
 EmDash は、Cloudflare が 2026年4月1日に公開した **Astro 6 ベースのフルスタック・サーバーレス JavaScript CMS** だ。記事では「WordPress の spiritual successor」と表現されているが、実態は WordPress を移植したものではない。PHP 製 CMS を edge に持ち込む話ではなく、**CMS、テーマ、プラグインという体験を、Cloudflare Workers の実行モデルに合わせて作り直したもの**として読むのが正確だ。Cloudflare は EmDash をベータとして公開し、Cloudflare 上では D1・R2・Workers を使い、Node.js + SQLite 環境でも動かせると説明している。
 
