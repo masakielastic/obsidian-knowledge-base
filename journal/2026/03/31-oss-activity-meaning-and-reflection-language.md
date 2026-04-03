@@ -1,9 +1,21 @@
-# OSS活動は「何を作ったか」だけでは語れない――意義と振り返りを言葉にする技術
-
+---
+title: "OSS活動は「何を作ったか」だけでは語れない――意義と振り返りを言葉にする技術"
 date: 2026-03-31
-tags: #OSS #OpenSource #EngineeringReflection #TechCareer #SoftwareEngineering  
-#PlatformEngineering #Standardization #DeveloperExperience #TechWriting  
-#LearningNotes #KnowledgeManagement
+tags:
+  - OSS
+  - OpenSource
+  - EngineeringReflection
+  - TechCareer
+  - SoftwareEngineering
+  - PlatformEngineering
+  - Standardization
+  - DeveloperExperience
+  - TechWriting
+  - LearningNotes
+  - KnowledgeManagement
+---
+
+# OSS活動は「何を作ったか」だけでは語れない――意義と振り返りを言葉にする技術
 
 OSS活動を振り返るとき、つい「何を実装したか」「どの提案を出したか」を並べて終わりがちになる。けれど、基盤改善や標準化に近い活動ほど、それだけでは意味が伝わりにくい。大事なのは、何を作ったかより、どんな重複や不便や説明コストを減らそうとしていたのか、という整理である。
 
