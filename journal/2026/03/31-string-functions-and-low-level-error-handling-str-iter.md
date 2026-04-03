@@ -1,8 +1,21 @@
+---
+title: "文字列関数でも、すぐ失敗しないほうがよいことがある"
+date: 2026-03-31
+tags:
+  - PHP
+  - PHPRFC
+  - StringProcessing
+  - ErrorHandling
+  - LowLevelDesign
+  - APIDesign
+  - UTF8
+  - SoftwareArchitecture
+  - NetworkProgramming
+  - DesignPrinciples
+---
+
 # 文字列関数でも、すぐ失敗しないほうがよいことがある
 — `str_iter` で考える、アプリと低レイヤーのエラーハンドリングの違い
-
-date: 2026-03-31
-tags: #PHP #PHPRFC #StringProcessing #ErrorHandling #LowLevelDesign #APIDesign #UTF8 #SoftwareArchitecture #NetworkProgramming #DesignPrinciples
 
 以前取り組んだ PHP RFC の `str_iter` では、UTF-8 文字列をコードポイント単位で順にたどる関数を考えた。このとき重要だったのは、不正なバイト列を見つけたら即座にエラーにするべきか、という論点だった。
 
