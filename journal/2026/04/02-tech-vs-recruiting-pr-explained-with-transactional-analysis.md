@@ -1,12 +1,16 @@
-# 技術広報は「理解」を、採用広報は「関係」をつくる――交流分析で見る役割の違い
-
+---
+title: "技術広報は「理解」を、採用広報は「関係」をつくる――交流分析で見る役割の違い"
 date: 2026-04-02
-tags: #pr
-#transactional-analysis
-#communication-model
-#tech-blog
-#hiring
-#role-design
+tags:
+  - pr
+  - transactional-analysis
+  - communication-model
+  - tech-blog
+  - hiring
+  - role-design
+---
+
+# 技術広報は「理解」を、採用広報は「関係」をつくる――交流分析で見る役割の違い
 
 **企画**「会社の外に向けた発信といっても、技術広報と採用広報は同じではありませんよね。どちらも記事やブログという形を取りますが、読者に届けたいものが少し違う気がします。」
 
