@@ -1,7 +1,16 @@
-# 技術広報は「書く人」だけでは回らない――企画・技術担当・レビュー担当で考える運用の基本
+---
+title: "技術広報は「書く人」だけでは回らない――企画・技術担当・レビュー担当で考える運用の基本"
+date: 2026-04-02
+tags:
+  - tech-pr
+  - role-design
+  - workflow-design
+  - content-production
+  - information-design
+  - mental-model
+---
 
-date:2026-04-02
-tags: #tech-pr #role-design #workflow-design #content-production #information-design #mental-model
+# 技術広報は「書く人」だけでは回らない――企画・技術担当・レビュー担当で考える運用の基本
 
 **企画**「技術広報やエンジニアブログって、技術に詳しい人が書けば回ると思われがちです。でも実際は、それだけだと続かないし、読まれる記事にもなりにくいですよね。」
 
