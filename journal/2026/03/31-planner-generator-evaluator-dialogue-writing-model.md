@@ -1,14 +1,18 @@
-# Planner / Generator / Evaluator は、AIによる対話形式の記事設計にも使える
-
+---
+title: "Planner / Generator / Evaluator は、AIによる対話形式の記事設計にも使える"
 date: 2026-03-31
-tags: #AIWriting
-#PromptEngineering
-#DialogueDesign
-#TechnicalWriting
-#SoftwareDesign
-#LLM
-#KnowledgeWork
-#EngineeringNotes
+tags:
+  - AIWriting
+  - PromptEngineering
+  - DialogueDesign
+  - TechnicalWriting
+  - SoftwareDesign
+  - LLM
+  - KnowledgeWork
+  - EngineeringNotes
+---
+
+# Planner / Generator / Evaluator は、AIによる対話形式の記事設計にも使える
 
 対話形式の記事を書こうとすると、意外と難しい。役割を分けたはずなのに雑談に流れたり、説明役が全部しゃべって単調になったり、「結局この会話は何を整理していたのか」がぼやけやすい。そこで役立つのが Planner / Generator / Evaluator という見方だ。これは単なるマルチエージェント流行語ではなく、「何を決める役か」「何を作る役か」「何を疑う役か」を分けるための設計モデルとして読むと強い。今回のテーマも、その考え方をAIによる対話形式の文章作成へ応用することにある。
 
