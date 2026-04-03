@@ -1,7 +1,17 @@
-# Pre-PEP: Rust for CPython の論点整理 — 段階設計とロードマップ設計の観点から
-
+---
+title: "Pre-PEP: Rust for CPython の論点整理 — 段階設計とロードマップ設計の観点から"
 date: 2026-04-02
-tags: #python #cpython #rust #prepep #scope-design #roadmap #research-notes
+tags:
+  - python
+  - cpython
+  - rust
+  - prepep
+  - scope-design
+  - roadmap
+  - research-notes
+---
+
+# Pre-PEP: Rust for CPython の論点整理 — 段階設計とロードマップ設計の観点から
 
 Pre-PEP: Rust for CPython で現在議論されているのは、CPython に Rust を全面導入するかどうかではない。現時点の提案は、**optional extension modules という限定範囲で Rust を認めるか、その実験をどう評価し、将来どこまで広げうるか**にある。required modules や interpreter core への導入は今回の提案には含まれておらず、未確定なのは、対象モジュールの選定、評価基準、将来の拡大範囲である。したがって、この議論は **現時点の提案範囲、将来のロードマップ、実験対象、評価基準**を分けて読む必要がある。
 
