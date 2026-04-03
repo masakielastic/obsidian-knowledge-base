@@ -1,7 +1,23 @@
-# stream_select() があるのに、なぜ PHP に Polling API が必要なのか
-
+---
+title: "stream_select() があるのに、なぜ PHP に Polling API が必要なのか"
 date: 2026-03-31
-tags: #PHP #PHPInternals #AsyncIO #EventLoop #Polling #StreamSelect #ReactPHP #AMPHP #Revolt #libuv #libevent #SystemsProgramming #Networking
+tags:
+  - PHP
+  - PHPInternals
+  - AsyncIO
+  - EventLoop
+  - Polling
+  - StreamSelect
+  - ReactPHP
+  - AMPHP
+  - Revolt
+  - libuv
+  - libevent
+  - SystemsProgramming
+  - Networking
+---
+
+# stream_select() があるのに、なぜ PHP に Polling API が必要なのか
 
 `stream_select()` があるなら十分では、と思っていた。けれど整理してみると、あれは「待つ」ための古い共通手段ではあっても、現代的な非同期 I/O の土台としては限界がある。今回の Polling API RFC を私は、「新しい派手な機能の追加」ではなく、「PHP の足場をそろえる話」として読むのが重要だと思った。
 
