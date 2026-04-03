@@ -1,18 +1,22 @@
-# PHP開発環境のサーバーは「本番の実行モデル」に合わせて選ぶ — ReactPHP・Swoole・php-fpm の使い分けメモ
-
+---
+title: "PHP開発環境のサーバーは「本番の実行モデル」に合わせて選ぶ — ReactPHP・Swoole・php-fpm の使い分けメモ"
 date: 2026-03-31
-tags: #PHP
-#WebDevelopment
-#Backend
-#HTTPServer
-#ReactPHP
-#Swoole
-#PHPPM
-#AsyncProgramming
-#EventLoop
-#SoftwareArchitecture
-#DevEnvironment
-#SystemDesign
+tags:
+  - PHP
+  - WebDevelopment
+  - Backend
+  - HTTPServer
+  - ReactPHP
+  - Swoole
+  - PHPPM
+  - AsyncProgramming
+  - EventLoop
+  - SoftwareArchitecture
+  - DevEnvironment
+  - SystemDesign
+---
+
+# PHP開発環境のサーバーは「本番の実行モデル」に合わせて選ぶ — ReactPHP・Swoole・php-fpm の使い分けメモ
 
 結論から書くと、PHP 開発環境のサーバー選びは「手軽さ」より「本番の実行モデルにどこまで合わせるか」で考えるのがよい。
 本番が php-fpm 型なら、開発も同期モデル中心で大きな問題は出にくい。
