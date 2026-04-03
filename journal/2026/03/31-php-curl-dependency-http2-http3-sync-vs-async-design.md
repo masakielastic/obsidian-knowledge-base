@@ -1,22 +1,26 @@
+---
+title: "PHP の HTTP/2/3 は curl だけでよいのか"
+date: 2026-03-31
+tags:
+  - PHP
+  - HTTP
+  - HTTP2
+  - HTTP3
+  - QUIC
+  - cURL
+  - Async
+  - Sync
+  - Networking
+  - ProtocolDesign
+  - SoftwareArchitecture
+  - Backend
+  - WebDevelopment
+  - OSS
+  - EngineeringNotes
+---
+
 # PHP の HTTP/2/3 は curl だけでよいのか
 ――同期利用者の利便性と非同期利用者の足場をどう両立するか
-
-date: 2026-03-31
-tags: #PHP
-#HTTP
-#HTTP2
-#HTTP3
-#QUIC
-#cURL
-#Async
-#Sync
-#Networking
-#ProtocolDesign
-#SoftwareArchitecture
-#Backend
-#WebDevelopment
-#OSS
-#EngineeringNotes
 
 PHP で HTTP 通信を扱う現場では、curl 依存はきわめて合理的である。TLS、ALPN、HTTP/2/3 の交渉を自前で抱えずに済み、多くの利用者にとっては「安全かつ便利に通信できること」が最優先だからだ。同期的な Web アプリケーション開発を中心に見るなら、curl は今後も重要な基盤であり続けるだろう。
 
