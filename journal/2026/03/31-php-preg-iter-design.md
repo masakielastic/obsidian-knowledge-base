@@ -1,7 +1,21 @@
-# preg_iter PHP RFC 構想メモ — str_iter の先に見えてきた regex iterator という primitive
-
+---
+title: "preg_iter PHP RFC 構想メモ — str_iter の先に見えてきた regex iterator という primitive"
 date: 2026-03-31
-tags: #php #php-rfc #regex #pcre #iterator #api-design #primitive #string-processing #unicode #software-architecture #oss
+tags:
+  - php
+  - php-rfc
+  - regex
+  - pcre
+  - iterator
+  - api-design
+  - primitive
+  - string-processing
+  - unicode
+  - software-architecture
+  - oss
+---
+
+# preg_iter PHP RFC 構想メモ — str_iter の先に見えてきた regex iterator という primitive
 
 `preg_iter` という発想は、単なる「正規表現の便利関数を1個増やしたい」という話ではない。出発点は、`str_iter` のように「文字列を順にたどる primitive」を考えていると、「一致結果も順にたどれたほうが自然ではないか」と見えてくることだ。つまり `preg_iter` は、`str_iter` の延長線上にある構想として整理できる。
 
