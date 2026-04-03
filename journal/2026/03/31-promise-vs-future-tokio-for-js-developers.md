@@ -1,16 +1,20 @@
-# Rust/Tokio の Future は Promise と何が違うのか
-
+---
+title: "Rust/Tokio の Future は Promise と何が違うのか"
 date: 2026-03-31
-tags: #Rust
-#Tokio
-#AsyncProgramming
-#Future
-#Promise
-#JavaScript
-#Concurrency
-#EventLoop
-#SystemsProgramming
-#ProgrammingModel
+tags:
+  - Rust
+  - Tokio
+  - AsyncProgramming
+  - Future
+  - Promise
+  - JavaScript
+  - Concurrency
+  - EventLoop
+  - SystemsProgramming
+  - ProgrammingModel
+---
+
+# Rust/Tokio の Future は Promise と何が違うのか
 
 JavaScript ユーザーとして Tokio を学ぶとき、私はまず **Future は Promise の別名ではない** と整理したほうがよいと思っています。
 
