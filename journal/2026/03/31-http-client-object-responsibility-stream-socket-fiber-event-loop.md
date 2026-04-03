@@ -1,7 +1,24 @@
-# HTTP クライアントの設計 — Stream / Socket / Fiber / Event Loop の責務をどう切り分けるか
-
+---
+title: "HTTP クライアントの設計 — Stream / Socket / Fiber / Event Loop の責務をどう切り分けるか"
 date: 2026-03-31
-tags: #http #php #stream_api #fiber #event_loop #async #network_programming #object_oriented_design #responsibility_design #architecture #non_blocking_io #scheduler #resource_handle #mental_model
+tags:
+  - http
+  - php
+  - stream_api
+  - fiber
+  - event_loop
+  - async
+  - network_programming
+  - object_oriented_design
+  - responsibility_design
+  - architecture
+  - non_blocking_io
+  - scheduler
+  - resource_handle
+  - mental_model
+---
+
+# HTTP クライアントの設計 — Stream / Socket / Fiber / Event Loop の責務をどう切り分けるか
 
 HTTP クライアントを考え始めると、つい「Stream オブジェクトが読み書きも監視も状態管理も全部やる」と想像しがちです。ですが、その見方は危ういです。今回の整理で重要なのは、コードを書く前に責務の地図を作ることでした。とくに Stream / Socket / Fiber / Event Loop を別物として理解することが中心に置かれています。
 
