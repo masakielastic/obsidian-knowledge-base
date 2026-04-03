@@ -1,7 +1,19 @@
-# Node.js の QUIC 文書をどう読むか — `Endpoint` / `Session` / `Stream` でつかむ学習メモ
-
+---
+title: "Node.js の QUIC 文書をどう読むか — `Endpoint` / `Session` / `Stream` でつかむ学習メモ"
 date: 2026-03-31
-tags: #Nodejs #QUIC #Networking #HTTP3 #TransportLayer #AsyncIO #WebDevelopment #SoftwareArchitecture #LearningNotes
+tags:
+  - Nodejs
+  - QUIC
+  - Networking
+  - HTTP3
+  - TransportLayer
+  - AsyncIO
+  - WebDevelopment
+  - SoftwareArchitecture
+  - LearningNotes
+---
+
+# Node.js の QUIC 文書をどう読むか — `Endpoint` / `Session` / `Stream` でつかむ学習メモ
 
 Node.js の `node:quic` 文書は、安定 API の完成版というより、**QUIC をどういう部品に分けて理解するか**を見る教材として読むのがよさそうです。文書冒頭でも `Stability: 1.0 - Early development`、`--experimental-quic` 前提とされています。
 
