@@ -1,12 +1,16 @@
-# 役割分担・台詞分析・演技設計をつなげて考える――対話形式の記事づくりの見取り図
-
+---
+title: "役割分担・台詞分析・演技設計をつなげて考える――対話形式の記事づくりの見取り図"
 date: 2026-04-02
-tags: #dialogue
-#role-model
-#speech-analysis
-#acting-framework
-#information-design
-#mental-model
+tags:
+  - dialogue
+  - role-model
+  - speech-analysis
+  - acting-framework
+  - information-design
+  - mental-model
+---
+
+# 役割分担・台詞分析・演技設計をつなげて考える――対話形式の記事づくりの見取り図
 
 **企画**「対話形式の記事を書くとき、登場人物を増やせば自然に会話が回るわけではありません。むしろ大事なのは、この人は場を動かすのか、決めるのか、支えるのか、整理するのか、という役割の違いです。もとの整理では、その型としてプロモーター、コントローラー、サポーター、アナライザーの四つが置かれていました。」
 
