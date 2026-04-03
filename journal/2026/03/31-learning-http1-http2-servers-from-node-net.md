@@ -1,7 +1,20 @@
-# Node.jsでHTTP/1/2の簡易サーバーをどう学ぶか — `node:net` から始めて、HTTPの層を自分の手で切り分ける
-
+---
+title: "Node.jsでHTTP/1/2の簡易サーバーをどう学ぶか — `node:net` から始めて、HTTPの層を自分の手で切り分ける"
 date: 2026-03-31
-tags: #Nodejs #HTTP1 #HTTP2 #TCP #TLS #WebServer #Backend #Programming #SoftwareEngineering #Obsidian
+tags:
+  - Nodejs
+  - HTTP1
+  - HTTP2
+  - TCP
+  - TLS
+  - WebServer
+  - Backend
+  - Programming
+  - SoftwareEngineering
+  - Obsidian
+---
+
+# Node.jsでHTTP/1/2の簡易サーバーをどう学ぶか — `node:net` から始めて、HTTPの層を自分の手で切り分ける
 
 私は、Node.js で HTTP を学ぶときこそ、最初から `node:http` や `node:http2` に頼りすぎないほうが理解が深まると思っています。完成された標準モジュールは実務では便利ですが、学習では「何を肩代わりしてくれているのか」が見えにくいからです。そこで私は、まず `node:net` を起点に簡易サーバーを作るやり方を勧めたいです。
 
