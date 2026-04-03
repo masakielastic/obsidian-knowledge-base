@@ -1,16 +1,20 @@
-# QUIC のユーザーランド API はなぜこんなに設計がむずかしいのか
-
+---
+title: "QUIC のユーザーランド API はなぜこんなに設計がむずかしいのか"
 date: 2026-03-31
-tags: #QUIC
-#HTTP3
-#API_Design
-#Networking
-#AsyncProgramming
-#ProtocolDesign
-#SoftwareArchitecture
-#BackendEngineering
-#EventDriven
-#SystemsDesign
+tags:
+  - QUIC
+  - HTTP3
+  - API_Design
+  - Networking
+  - AsyncProgramming
+  - ProtocolDesign
+  - SoftwareArchitecture
+  - BackendEngineering
+  - EventDriven
+  - SystemsDesign
+---
+
+# QUIC のユーザーランド API はなぜこんなに設計がむずかしいのか
 
 TCP → HTTP/2 → QUIC と進むにつれて、API の前提そのものが崩れていく。この流れを意識すると、QUIC の API 設計が単なるラッパー作りでは済まない理由が見えてくる。
 
