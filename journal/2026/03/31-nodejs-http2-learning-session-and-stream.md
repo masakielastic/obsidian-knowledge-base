@@ -1,18 +1,22 @@
+---
+title: "Node.js の `http2` モジュールで HTTP/2 を学ぶ"
+date: 2026-03-31
+tags:
+  - NodeJS
+  - HTTP2
+  - Networking
+  - Backend
+  - WebProtocols
+  - AsyncProgramming
+  - EventDriven
+  - Streams
+  - SoftwareArchitecture
+  - TechNotes
+---
+
 # Node.js の `http2` モジュールで HTTP/2 を学ぶ
 
 — **`Http2Session` と `Http2Stream` を入口に、「接続の上の複数通信」を理解する**
-
-date: 2026-03-31
-tags: #NodeJS
-#HTTP2
-#Networking
-#Backend
-#WebProtocols
-#AsyncProgramming
-#EventDriven
-#Streams
-#SoftwareArchitecture
-#TechNotes
 
 HTTP/2 を学びたいとき、私は最初から仕様書のフレーム一覧に突っ込むより、Node.js の `http2` モジュールを見るのがよいと思っています。理由は単純で、HTTP/2 の核心である「1本の接続の上に複数のストリームが載る」という構造が、API の形にかなり素直に現れているからです。添付の方針でも、`Http2Session` と `Http2Stream` を入口に、接続と個別通信を分けて理解することが重視されていました。
 
