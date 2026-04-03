@@ -1,11 +1,16 @@
-# 複数アカウント運用におけるコンテンツ設計の振り返り
-
+---
+title: "複数アカウント運用におけるコンテンツ設計の振り返り"
 date: 2026-04-03
-tags: #contentStrategy
-#multiAccount
-#technicalPR
-#audienceDesign
-#writingWorkflow
+tags:
+  - contentStrategy
+  - multiAccount
+  - technicalPR
+  - audienceDesign
+  - writingWorkflow
+---
+
+
+# 複数アカウント運用におけるコンテンツ設計の振り返り
 
 今後のコンテンツ運用の課題として、複数のアカウントをどう使い分けるかを改めて整理する必要があると感じた。昨年は、AI生成のコンテンツがどこまで信用できるのか自分でも判断しきれなかったため、noteアカウントを実験場として使っていた。まずは作ってみて、読み返してみて、どこまで使えるのかを確かめる段階だった。
 
