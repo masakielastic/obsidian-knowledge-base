@@ -1,7 +1,25 @@
-# ReactPHP / AMPHP 時代の PHP と WSGI / ASGI 的な接続規約
-
+---
+title: "ReactPHP / AMPHP 時代の PHP と WSGI / ASGI 的な接続規約"
 date: 2026-03-31
-tags: #PHP #ReactPHP #AMPHP #WSGI #ASGI #WebArchitecture #ServerDesign #RuntimeModel #EventLoop #AsyncProgramming #PSR15 #WebFramework #BackendEngineering #SystemDesign #SoftwareArchitecture
+tags:
+  - PHP
+  - ReactPHP
+  - AMPHP
+  - WSGI
+  - ASGI
+  - WebArchitecture
+  - ServerDesign
+  - RuntimeModel
+  - EventLoop
+  - AsyncProgramming
+  - PSR15
+  - WebFramework
+  - BackendEngineering
+  - SystemDesign
+  - SoftwareArchitecture
+---
+
+# ReactPHP / AMPHP 時代の PHP と WSGI / ASGI 的な接続規約
 
 Python の WSGI / ASGI を見ていると、PHP にも似たものが必要ではないかと感じる。とくに ReactPHP や AMPHP のように long-running process を前提に PHP アプリを動かそうとすると、その必要性が一気に現実味を帯びる。論点は単なる async 対応ではない。サーバーがアプリをどう呼び出し、アプリがその実行モデルの上でどう生きるか、という接続面の話だ。
 
