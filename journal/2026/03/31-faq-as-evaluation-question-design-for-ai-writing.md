@@ -1,17 +1,21 @@
+---
+title: "テスト駆動に似た「質問設計」から始める文章作成"
+date: 2026-03-31
+tags:
+  - AIWriting
+  - FAQDesign
+  - TestDrivenWriting
+  - PromptEngineering
+  - TechnicalWriting
+  - EngineeringPractice
+  - DesignReview
+  - KnowledgeManagement
+  - Obsidian
+---
+
 # テスト駆動に似た「質問設計」から始める文章作成
 
 — テスト駆動に似た「質問設計」から始める文章作成
-
-date: 2026-03-31
-tags: #AIWriting
-#FAQDesign
-#TestDrivenWriting
-#PromptEngineering
-#TechnicalWriting
-#EngineeringPractice
-#DesignReview
-#KnowledgeManagement
-#Obsidian
 
 AIに文章を書かせるとき、多くの人はまず「何を書いてほしいか」を長く説明しようとします。もちろんそれも大事ですが、実務ではその前にFAQを作るほうが、文章の品質は安定しやすいです。
 
