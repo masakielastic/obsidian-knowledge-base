@@ -1,18 +1,22 @@
-# PHP の nghttp2 拡張モジュールの準公式化についての検討
-
+---
+title: "PHP の nghttp2 拡張モジュールの準公式化についての検討"
 date: 2026-03-31
-tags: #PHP
-#PHPRFC
-#nghttp2
-#HTTP2
-#ProtocolDesign
-#APIDesign
-#Extension
-#OpenSource
-#Governance
-#Async
-#Networking
-#SoftwareArchitecture
+tags:
+  - PHP
+  - PHPRFC
+  - nghttp2
+  - HTTP2
+  - ProtocolDesign
+  - APIDesign
+  - Extension
+  - OpenSource
+  - Governance
+  - Async
+  - Networking
+  - SoftwareArchitecture
+---
+
+# PHP の nghttp2 拡張モジュールの準公式化についての検討
 
 nghttp2 拡張モジュールの準公式化について検討しました。
 
