@@ -398,11 +398,3 @@ iterator / parser / validator / state を区別する。
 
 ### 6. 小さなテストデータで理解を手元化する
 最小の正常系と異常系を作ることで、構造が見えやすくなる。
-
----
-
-## 次に接続するファイル
-
-- `chapter-order-rationale.md`
-- `style-guide.md`
-- `ch01-why-binary-feels-hard.md`
