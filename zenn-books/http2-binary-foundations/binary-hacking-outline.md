@@ -258,9 +258,3 @@ HPACK を素材にしながら、state を持つ parser の設計上の難しさ
 10. 他分野への応用可能性を示す
 
 つまり本書は、**可変長 → 構造 → 状態**という順で進みながら、最後にそれを実装読解へ接続する構成になっている。
-
-## このアウトラインをもとに次に作るファイル
-
-- `core-mental-models.md`
-- `chapter-order-rationale.md`
-- `ch01-why-binary-feels-hard.md`
