@@ -3,8 +3,7 @@
 title: "Dialogue Characters (Foundation)"
 aliases:
 
-* "学生・先生・助手 設計"
-  tags:
+* tags:
 * dialogue
 * characters
 * pge
