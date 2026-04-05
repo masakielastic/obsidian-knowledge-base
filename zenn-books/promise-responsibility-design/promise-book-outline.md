@@ -1,6 +1,15 @@
 # Promise 再学習 ― 結果待機・失敗・キャンセルを整理する
 
-## 詳細アウトライン
+# ファイル名候補
+
+ * 01-why-relearn-promise.md
+ * 02-what-promise-does.md
+ * 03-what-promise-does-not-do.md
+ * 04-what-abort-controller-and-signal-are.md
+ * 05-cancellation-is-responsibility-propagation.md
+ * 06-rethinking-all-race-timeout-and-retry.md
+ * 07-broken-promise-designs-that-still-work.md
+ * 08-review-promise-signal-and-scope.md
 
 # 01章　なぜ Promise を学び直すのか
 
