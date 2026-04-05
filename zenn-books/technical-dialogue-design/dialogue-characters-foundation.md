@@ -1,17 +1,14 @@
 ---
-
 title: "Dialogue Characters (Foundation)"
-aliases:
-
-* tags:
-* dialogue
-* characters
-* pge
-* technical-writing
-* ai-writing
-  status: active
-  type: character-design
-
+aliases: []
+tags:
+  - dialogue
+  - characters
+  - pge
+  - technical-writing
+  - ai-writing
+status: active
+type: character-design
 ---
 
 # 学生（Student）
