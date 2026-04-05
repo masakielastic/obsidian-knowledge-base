@@ -1,4 +1,6 @@
-## 第5章　Planner / Generator / Evaluator で考える
+---
+title: "Planner / Generator / Evaluator で考える"
+---
 
 **学生：**  
 前の章では、学生、先生、助手という三人の役割を分ける話がありましたよね。  
