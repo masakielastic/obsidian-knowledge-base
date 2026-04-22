@@ -1,0 +1,25 @@
+title: "WordPressアーキテクチャ入門"
+summary: "Gutenberg・ブロックテーマ・Headless・DDD・テストの観点から、WordPressを構造として理解するための本"
+topics:
+  - wordpress
+  - gutenberg
+  - php
+  - javascript
+  - architecture
+published: false
+price: 0
+chapters:
+  - intro
+  - assumptions
+  - why-wp-is-hard-to-explain
+  - from-classic-theme-to-block-theme
+  - compare-web-components-react-spa
+  - headless-vs-wordpress
+  - gutenberg-with-cqrs-and-event-sourcing
+  - block-json-and-theme-json
+  - theme-design-as-constraint-design
+  - what-testing-means-in-wordpress
+  - realistic-testing-strategy
+  - learning-issues-for-small-web-shops
+  - is-wordpress-old-or-differently-optimized
+  - outro
